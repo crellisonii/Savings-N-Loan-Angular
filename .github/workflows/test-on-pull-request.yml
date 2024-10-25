@@ -10,7 +10,7 @@ on:
 
 jobs:
   test:
-    name: Jest
+    name: PR Jest
     runs-on: ubuntu-latest
 
     strategy:

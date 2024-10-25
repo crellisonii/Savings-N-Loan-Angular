@@ -6,11 +6,11 @@ name: Run Jest Tests On Push
 on:
   push:
     branches:
-      - "**"
+      - ["!master", "!develop"]
 
 jobs:
   test:
-    name: Jest
+    name: Push Jest
     runs-on: ubuntu-latest
 
     strategy:
