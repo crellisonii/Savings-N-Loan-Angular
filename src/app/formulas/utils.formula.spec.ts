@@ -14,7 +14,7 @@ describe('Formula utils', () => {
       const term = 36;
       const lengthType = LengthType.MONTHLY;
 
-      expect(getTermValue(term, lengthType)).toEqual(term / 11);
+      expect(getTermValue(term, lengthType)).toEqual(term / 12);
     });
   });
 });
