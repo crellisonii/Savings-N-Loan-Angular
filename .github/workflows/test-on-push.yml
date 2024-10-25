@@ -5,8 +5,6 @@ name: Run Jest Tests On Push
 
 on:
   push:
-    branches:
-      - "**"
     branches-ignore:
       - "master"
       - "develop"
