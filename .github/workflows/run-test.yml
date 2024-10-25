@@ -12,8 +12,8 @@ on:
       - "**"
 
 jobs:
-  build:
-
+  test:
+    name: Run Jest Tests
     runs-on: ubuntu-latest
 
     strategy:
